@@ -1,0 +1,64 @@
+.header{
+    background-color: $gray-color;
+    color:$white-color;
+    padding: 31px 0 20px 0;
+    position: relative;
+    &__logo{
+        margin-right: 15rem;
+    }
+    &__right-inner{
+        display: flex;
+        align-items: center;
+    }
+    &__nav{
+        margin-right: 10rem;
+    }
+    &__nav-list{
+        display: flex;
+        align-items: center;
+    }
+    &__nav-item:not(:last-child){
+        margin-right: 6rem;
+    }
+    &__search-block{
+        margin-right: 5rem;
+    }
+    &__burger-block{
+        margin-right: 8.4rem;
+    }
+    &__search,
+    &__burger{
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+    }
+    &__search{
+
+    }
+    &__burger{
+
+    }
+
+    &__left{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        right: 0;
+        background-color: $accent-color;
+        max-width: 358px;
+        padding: 47px 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__left-inner{
+        display: flex;
+        align-items: center;
+
+    }
+    &__left-boxnumber{
+        display: flex;
+        flex-direction: column;
+        margin-right: 4rem;
+    }
+}
